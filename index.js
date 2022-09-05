@@ -93,7 +93,7 @@ async function bumpSys(client, db, options = []) {
 
             let cho = client.channels.cache.get('747780089151881258')
 
-            const bumpo%3Cpath%20d%3D%22m0%202.5%20l2%20-1.5%20l1%200%20l2%201.5%20l1%200%22%20stroke%3D%22%23999%22%20fill%3D%22none%22%20stroke-width%3D%22.7%22%2F%3E__0">%3Cpath%20d%3D%22m0%202.5%20l2%20-1.5%20l1%200%20l2%201.5%20l1%200%22%20stroke%3D%22%23999%22%20fill%3D%22none%22%20stroke-width%3D%22.7%22%2F%3E__0"> = new Discord.MessageEmbed()
+            const bumpo = new Discord.MessageEmbed()
               .setTitle('Its Bump Time !')
               .setDescription(
                 'Its been 2 hours since last bump. Could someone please bump the server again ?'
